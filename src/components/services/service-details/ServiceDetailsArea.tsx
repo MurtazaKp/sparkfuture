@@ -57,7 +57,7 @@ const ServiceDetailsArea = ({ serviceId }: Props) => {
       <section className="service-details-area pt-120 pb-120">
         <div className="container">
           <div className="row g-5">
-            <div className="col-lg-8 order-2 order-lg-1">
+            <div className="col-lg-8 order-1 order-lg-1">
               <div className="service-details__content">
                 {/* 1. Feature Hero Image */}
                 <div className="service-details__image mb-50 position-relative overflow-hidden rounded-4">
@@ -197,7 +197,7 @@ const ServiceDetailsArea = ({ serviceId }: Props) => {
               </div>
             </div>
 
-            <div className="col-lg-4 order-1 order-lg-2">
+            <div className="col-lg-4 order-2 order-lg-2">
               <ServiceDetailsSidebar activeId={serviceId} />
             </div>
           </div>
