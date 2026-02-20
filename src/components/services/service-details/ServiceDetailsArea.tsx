@@ -62,7 +62,7 @@ const ServiceDetailsArea = ({ serviceId }: Props) => {
                 {/* 1. Feature Hero Image */}
                 <div className="service-details__image mb-50 position-relative overflow-hidden rounded-4">
                   <Image
-                    src={service_img_1}
+                    src={content.thumb || service_img_1}
                     alt={content.title}
                     className="w-100 transition-transform"
                     priority

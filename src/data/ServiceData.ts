@@ -48,6 +48,7 @@ export interface ServiceDetailType {
    id: string;
    title: string;
    subtitle: string;
+    thumb?: StaticImageData;
    mainDesc: string;
    whatWeDo: string[];
    approach: string[];
@@ -76,6 +77,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "website-development",
     title: "Website Development Services",
     subtitle: "Build a Website That Works for Your Business",
+    thumb: service_thumb1, // Added thumbnail
     mainDesc: "Your website should do more than look good — it should load fast, rank well, and convert visitors into customers. At Sparkfuture Technologies LLP, we build modern, secure, and performance-driven websites tailored to your business goals.",
     whatWeDo: [
       "Business & corporate websites",
@@ -104,6 +106,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "custom-software",
     title: "Custom Software Development",
     subtitle: "Software Built Around Your Business",
+    thumb: service_thumb2, // Added thumbnail
     mainDesc: "Off-the-shelf software slows businesses down. We build custom solutions that fit your workflows, users, and growth plans.",
     whatWeDo: [
       "Custom business applications",
@@ -131,6 +134,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "mobile-app-development",
     title: "Mobile App Development",
     subtitle: "Mobile Apps Users Love to Use",
+    thumb: service_thumb3, // Added thumbnail
     mainDesc: "We create high-performance mobile applications that are intuitive, secure, and built to scale. From concept to app store — we’ve got you covered.",
     whatWeDo: [
       "Android & iOS applications",
@@ -158,6 +162,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "ui-ux-design",
     title: "UI / UX Design Services",
     subtitle: "Design That Delivers Real Experiences",
+    thumb: service_thumb5, // Added thumbnail
     mainDesc: "Great design is not just about looks — it’s about usability, engagement, and clarity. We focus on creating purpose-driven designs with impact.",
     whatWeDo: [
       "UX research & user journey mapping",
@@ -185,6 +190,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "cybersecurity",
     title: "Cybersecurity Solutions",
     subtitle: "Secure Your Digital Assets",
+    thumb: service_thumb4, // Added thumbnail
     mainDesc: "Cyber threats are evolving — your security should evolve faster. We help businesses protect applications, data, and infrastructure with proactive solutions.",
     whatWeDo: [
       "Web & mobile applications",
@@ -212,6 +218,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "cloud-services",
     title: "Cloud Services",
     subtitle: "Build, Scale & Perform in the Cloud",
+    thumb: service_thumb6, // Added thumbnail
     mainDesc: "We help businesses leverage the cloud for speed, scalability, and cost efficiency. Build, deploy, and scale with total confidence.",
     whatWeDo: [
       "Cloud migration & setup",
@@ -239,6 +246,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     id: "it-consulting",
     title: "IT Consulting & Strategy",
     subtitle: "Technology Decisions That Drive Growth",
+    thumb: service_thumb7, // Added thumbnail
     mainDesc: "We align technology with your business vision to help you scale smarter and faster. We focus on practical, actionable recommendations.",
     whatWeDo: [
       "Digital transformation strategy",
