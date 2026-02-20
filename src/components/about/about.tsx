@@ -66,7 +66,7 @@ const About = () => {
 
       {/* 2. Company Story */}
       <section className="container py-5 my-5 mt-0">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center  g-sm-5">
           <div className="col-lg-6">
             <div className="position-relative">
               <img

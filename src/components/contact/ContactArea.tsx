@@ -11,7 +11,7 @@ const ContactArea = () => {
         <div className="row g-4">
           <div className="col-lg-6">
             <div className="contact__left-item primary-bg">
-              <h3 className="text-white mb-30">Contact Information</h3>
+              <h3 className="text-white mb-10">Contact Information</h3>
               <p className="text-white">
                 Prefer a direct conversation? We’re just a call or click away.
                 Reach out to our team at the details below for immediate
@@ -38,7 +38,7 @@ const ContactArea = () => {
                     </svg>
                   </i>
                   <div>
-                    <span className="text-white">Call Us 7/24</span>
+                    <span className="text-white">Call Us</span>
                     <h3 className="mt-1">
                       <Link className="text-white" href="tel:+917021216852">
                         +91 7021216852
@@ -70,6 +70,7 @@ const ContactArea = () => {
                     </svg>
                   </i>
                   <div>
+                    <span className="text-white">Email</span>
                     <h3 className="mt-1">
                       <Link
                         className="text-white"
@@ -113,7 +114,7 @@ const ContactArea = () => {
                   </div>
                 </li>
               </ul>
-              <h4 className="text-white mb-20">Follow Social:</h4>
+              {/* <h4 className="text-white mb-20">Follow Social:</h4>
               <div className="social">
                 <Link href="#">
                   <i className="fa-brands fa-facebook-f"></i>
@@ -124,7 +125,7 @@ const ContactArea = () => {
                 <Link href="#">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-6">

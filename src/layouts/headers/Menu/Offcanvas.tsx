@@ -24,7 +24,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
         <div className="mobile-menu overflow-hidden mean-container">
           <div className="mean-bar">
             <nav className="mean-nav">
-              <MobileMenu />
+              <MobileMenu setOffCanvas={setOffCanvas} />
             </nav>
           </div>
         </div>

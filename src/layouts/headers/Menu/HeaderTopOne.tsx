@@ -62,7 +62,7 @@ const HeaderTopOne = () => {
               </a>
             </li>
           </ul>
-          <ul className="link-info">
+          {/* <ul className="link-info">
             <li>
               <Link href="#0">
                 <i className="fa-brands fa-facebook-f"></i>
@@ -83,7 +83,7 @@ const HeaderTopOne = () => {
                 <i className="fa-brands fa-youtube"></i>
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>

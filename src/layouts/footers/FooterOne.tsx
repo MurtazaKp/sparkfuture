@@ -53,10 +53,10 @@ const FooterOne = () => {
               <img src="/assets/images/logo/logo.png" />
             </Link>
             <p>
-              Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a
-              lacinia curabitur lacinia mollis
+              We help businesses build scalable, secure, and future-ready
+              digital experiences that drive growth and success.
             </p>
-            <div className="social-icon">
+            {/* <div className="social-icon">
               <Link href="#">
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
@@ -69,7 +69,7 @@ const FooterOne = () => {
               <Link href="#">
                 <i className="fa-brands fa-youtube"></i>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div
             className="footer__item item-sm wow fadeInUp"

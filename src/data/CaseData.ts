@@ -117,25 +117,9 @@ const Case_data: PortfolioDataType[] = [
       ],
       impact: "Reduced manual errors and significantly improved turnaround time for client proposals."
    },
+  
    {
       id: 6,
-      page: "case_2",
-      slug: "ibake-bakery-system",
-      thumb: Case2_4,
-      sub_title: "POS + ERP + KOT",
-      title: "iBake – Bakery Management System",
-      summary: "Developed an end-to-end bakery solution integrating POS billing, Kitchen Order Ticket (KOT), and inventory management.",
-      tech_stack: [".NET", "SQL Server", "jQuery", "Bootstrap"],
-      overview: "A unified platform connecting front-desk billing with back-end production and inventory workflows in real time.",
-      deliverables: [
-         "Fast POS billing with multi-payment support",
-         "Automatic KOT transfer from POS to kitchen",
-         "Recipe-based production planning and stock monitoring"
-      ],
-      impact: "Centralized operations and provided real-time visibility into sales and profitability."
-   },
-   {
-      id: 7,
       page: "case_2",
       slug: "sameer-roadlines",
       thumb: sameerImg,
@@ -152,7 +136,7 @@ const Case_data: PortfolioDataType[] = [
       impact: "Boosted organizational efficiency by replacing paper-based processes with a centralized digital platform."
    },
    {
-      id: 8,
+      id: 7,
       page: "case_2",
       slug: "mobile-retail-system",
       thumb: Case2_1,
@@ -169,7 +153,7 @@ const Case_data: PortfolioDataType[] = [
       impact: "Eliminated stock discrepancies and improved device traceability for small-to-mid-sized retailers."
    },
    {
-      id: 9,
+      id: 8,
       page: "case_2",
       slug: "dom-estates",
       thumb: domImg,

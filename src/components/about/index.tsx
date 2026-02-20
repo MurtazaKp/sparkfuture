@@ -3,7 +3,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import Testimonial from "../homes/home-one/Testimonial";
 
 import Process from "../homes/home-one/Process";
-import Team from "../pages/teams/team";
+
 import About from "./about";
 
 const AboutPage = () => {
@@ -13,7 +13,7 @@ const AboutPage = () => {
         <About />
 
         <Process />
-        <Team />
+        {/* <Team /> */}
         <Testimonial />
       </main>
       <FooterOne />
