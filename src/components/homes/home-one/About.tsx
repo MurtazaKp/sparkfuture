@@ -36,7 +36,7 @@ const About = () => {
                 <div className="image big-image">
                   <Image src={about_thumb1} alt="SparkFuture" />
                 </div>
-                <div className="image sm-image">
+                <div className="image sm-image d-none d-sm-block">
                   <Image src={about_thumb2} alt="Innovation" />
                 </div>
                 <div className="circle-shape">
