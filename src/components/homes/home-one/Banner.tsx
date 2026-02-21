@@ -217,7 +217,7 @@ const Banner = () => {
                   data-animation="slideInRight"
                   data-duration="2s"
                   data-delay=".9s"
-                  href="about.html"
+                  href="/about"
                   className="btn-one mt-60"
                 >
                   Explore More{" "}

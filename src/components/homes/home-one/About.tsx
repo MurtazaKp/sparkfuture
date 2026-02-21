@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import about_thumb1 from "@/assets/images/about/about-image1.jpg";
-import about_thumb2 from "@/assets/images/about/about-image2.png";
+import about_thumb2 from "@/assets/images/about/about-image-3.jpg";
 import shape_1 from "@/assets/images/shape/about-line.png";
 import shape_2 from "@/assets/images/shape/about-circle.png";
 import shape_3 from "@/assets/images/icon/section-title.png";
@@ -118,7 +118,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div
+              {/* <div
                 className="about__info mt-50 wow fadeInDown"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
@@ -127,7 +127,7 @@ const About = () => {
                   Explore More{" "}
                   <i className="fa-regular fa-arrow-right-long"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
