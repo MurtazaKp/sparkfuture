@@ -1,14 +1,23 @@
 import ServiceDetails from "@/components/services/service-details";
 import Wrapper from "@/layouts/Wrapper";
 import { service_details_data } from "@/data/ServiceData";
+import { notFound } from "next/navigation";
 
-// 1. Fix generateMetadata by awaiting params
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ id: string }>;
-}) {
-  const { id } = await params; // Wait for the params to resolve
+// ✅ Correct params type
+interface PageProps {
+  params: { id: string };
+}
+
+// ✅ REQUIRED for static export
+export async function generateStaticParams() {
+  return Object.keys(service_details_data).map((id) => ({
+    id,
+  }));
+}
+
+// ✅ Metadata
+export async function generateMetadata({ params }: PageProps) {
+  const { id } = params;
   const service = service_details_data[id];
 
   return {
@@ -18,16 +27,20 @@ export async function generateMetadata({
   };
 }
 
-// 2. Fix the Page component by awaiting params
-const page = async ({ params }: { params: Promise<{ id: string }> }) => {
-  const { id } = await params; // Wait for the params to resolve
+// ✅ Page
+const Page = async ({ params }: PageProps) => {
+  const { id } = params;
+  const service = service_details_data[id];
+
+  if (!service) {
+    notFound();
+  }
 
   return (
     <Wrapper>
-      {/* Pass the resolved id to your component */}
       <ServiceDetails serviceId={id} />
     </Wrapper>
   );
 };
 
-export default page;
+export default Page;

@@ -6,14 +6,22 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 
 interface PageProps {
-  params: Promise<{ slug: string }>;
+  params: { slug: string };
 }
 
-// --- Dynamic Metadata Generation ---
+// ✅ REQUIRED for static export
+export async function generateStaticParams() {
+  return Case_data.map((item) => ({
+    slug: item.slug,
+  }));
+}
+
+// ✅ Metadata
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug } = params;
+
   const project = Case_data.find((item) => item.slug === slug);
 
   if (!project) {
@@ -27,8 +35,9 @@ export async function generateMetadata({
   };
 }
 
+// ✅ Page
 const PortfolioDetailsPage = async ({ params }: PageProps) => {
-  const { slug } = await params;
+  const { slug } = params;
 
   const project = Case_data.find((item) => item.slug === slug);
 
