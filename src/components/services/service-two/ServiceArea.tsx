@@ -46,7 +46,7 @@ const ServiceArea = () => {
                     {/* Dynamic Title from data */}
                     <h4>
                       <Link
-                        href={`service-details/${item.slug || ""}`}
+                        href={`/service-details/${item.slug || ""}`}
                         className="primary-hover"
                       >
                         {item.title}
