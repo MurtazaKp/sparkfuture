@@ -81,7 +81,7 @@ const ServiceArea = () => {
 
                     <Link
                       className="read-more-btn"
-                      href={`service-details/${item.slug || ""}`}
+                      href={`/service-details/${item.slug || ""}`}
                     >
                       Read More{" "}
                       <i className="fa-regular fa-arrow-right-long"></i>

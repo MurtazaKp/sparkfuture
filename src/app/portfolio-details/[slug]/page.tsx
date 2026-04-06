@@ -6,28 +6,24 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 
 interface PageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>; // ✅ Now a Promise in Next.js 15
 }
 
-// ✅ REQUIRED for static export
 export async function generateStaticParams() {
   return Case_data.map((item) => ({
     slug: item.slug,
   }));
 }
 
-// ✅ Metadata
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params; // ✅ Awaited
 
   const project = Case_data.find((item) => item.slug === slug);
 
   if (!project) {
-    return {
-      title: "Project Not Found",
-    };
+    return { title: "Project Not Found" };
   }
 
   return {
@@ -35,9 +31,8 @@ export async function generateMetadata({
   };
 }
 
-// ✅ Page
 const PortfolioDetailsPage = async ({ params }: PageProps) => {
-  const { slug } = params;
+  const { slug } = await params; // ✅ Awaited
 
   const project = Case_data.find((item) => item.slug === slug);
 

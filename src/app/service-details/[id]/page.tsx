@@ -3,21 +3,21 @@ import Wrapper from "@/layouts/Wrapper";
 import { service_details_data } from "@/data/ServiceData";
 import { notFound } from "next/navigation";
 
-// ✅ Correct params type
+// ✅ Next.js 15: params is a Promise
 interface PageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-// ✅ REQUIRED for static export
+// ✅ Required for static export
 export async function generateStaticParams() {
   return Object.keys(service_details_data).map((id) => ({
     id,
   }));
 }
 
-// ✅ Metadata
+// ✅ Metadata — await params
 export async function generateMetadata({ params }: PageProps) {
-  const { id } = params;
+  const { id } = await params;
   const service = service_details_data[id];
 
   return {
@@ -27,9 +27,9 @@ export async function generateMetadata({ params }: PageProps) {
   };
 }
 
-// ✅ Page
+// ✅ Page — await params
 const Page = async ({ params }: PageProps) => {
-  const { id } = params;
+  const { id } = await params;
   const service = service_details_data[id];
 
   if (!service) {
