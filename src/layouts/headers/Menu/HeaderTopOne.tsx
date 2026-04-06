@@ -57,8 +57,8 @@ const HeaderTopOne = () => {
                 </defs>
               </svg>
 
-              <a href="tel:+917021216852" className="ms-1">
-                +91 7021216852
+              <a href="tel:+918655217803" className="ms-1">
+                +91 8655217803
               </a>
             </li>
           </ul>
