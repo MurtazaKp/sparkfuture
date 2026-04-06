@@ -116,7 +116,7 @@ const Process = () => {
             <span className="text-primary">faster, smarter, better.</span>
           </h2>
           <p className="lead mx-auto text-muted" style={{ maxWidth: "800px" }}>
-            At <strong>Sparkfuture Technologies LLP</strong>, we build solutions
+            At <strong>SparkFuture Technologies LLP</strong>, we build solutions
             that move businesses forward through a focused and scalable
             methodology.
           </p>

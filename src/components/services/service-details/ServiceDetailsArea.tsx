@@ -108,7 +108,7 @@ const ServiceDetailsArea = ({ serviceId }: Props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="side-image rounded-4 overflow-hidden shadow-lg">
-                      <Image src={service_img_2} alt="Sparkfuture Strategy" />
+                      <Image src={service_img_2} alt="SparkFuture Strategy" />
                     </div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ const ServiceDetailsArea = ({ serviceId }: Props) => {
                   <div className="banner-content">
                     <h3>Transform Your Digital Ecosystem Today</h3>
                     <p>
-                      Experience technical excellence with Sparkfuture’s
+                      Experience technical excellence with SparkFuture’s
                       dedicated team.
                     </p>
                     <Link href="/contact" className="btn-modern mt-20">

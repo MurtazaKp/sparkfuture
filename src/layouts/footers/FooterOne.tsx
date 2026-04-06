@@ -142,20 +142,23 @@ const FooterOne = () => {
             data-wow-duration="1500ms"
           >
             <h3 className="footer-title">Contact Us</h3>
-            <p className="mb-20">Mumbai, Maharashtra, India.</p>
+            <p className="mb-20">Pune, Maharashtra, India.</p>
             <ul className="footer-contact">
               <li>
                 <i className="fa-regular fa-clock"></i>
                 <div className="info">
                   <h5>Opening Hours:</h5>
-                  <p>Mon - Sat: 10.00 AM - 4.00 PM</p>
+                  <p>Mon - Sat: 10.00 AM - 7.00 PM</p>
                 </div>
               </li>
-              <li>
-                <i className="fa-duotone fa-phone"></i>
-                <div className="info">
+              <li className="align-items-start ">
+                <i className="fa-duotone fa-phone mt-2"></i>
+                <div className="info ">
                   <h5>Phone Call:</h5>
-                  <Link href={"tel:+917021216852"}>+91 7021216852</Link>
+                  <div className="d-flex flex-column">
+                    <Link href={"tel:+918655217803"}>+91 8655217803</Link>
+                    <Link href={"tel:+918655217831"}>+91 86552 17831</Link>
+                  </div>
                 </div>
               </li>
             </ul>

@@ -174,7 +174,7 @@ const Testimonial = () => {
                 Your growth is our mission. We work closely with every
                 organization to design solutions that aren&apos;t just
                 functional, but future-ready. Discover why businesses choose
-                Sparkfuture Technologies for custom development, cloud strategy,
+                SparkFuture Technologies for custom development, cloud strategy,
                 and enterprise-grade scalability through the honest feedback of
                 our valued partners.
               </p>

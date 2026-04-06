@@ -56,7 +56,7 @@ const About = () => {
           >
             Innovating the Future
           </span>
-          <h1 className="display-4 fw-bold ">About Sparkfuture Technologies</h1>
+          <h1 className="display-4 fw-bold ">About SparkFuture Technologies</h1>
         </div>
         <Cpu
           className="position-absolute bottom-0 end-0 opacity-10 text-white"
@@ -84,7 +84,7 @@ const About = () => {
               Empowering Growth through Technology
             </h2>
             <p className="text-muted mb-4">
-              Founded by three technology-driven professionals, Sparkfuture
+              Founded by three technology-driven professionals, SparkFuture
               Technologies delivers strategic technology solutions that enable
               sustainable business growth.
             </p>
@@ -143,7 +143,7 @@ const About = () => {
       <section className="container py-5 my-5">
         <div className="text-center mb-5">
           <h2 className="fw-bold display-6">
-            Why Choose Sparkfuture Technologies
+            Why Choose SparkFuture Technologies
           </h2>
           <div
             className="bg-warning mx-auto mt-3"

@@ -13,8 +13,8 @@ export async function generateMetadata({
 
   return {
     title: service
-      ? `${service.title} | Sparkfuture Technologies`
-      : "Service Details | Sparkfuture Technologies",
+      ? `${service.title} | SparkFuture Technologies`
+      : "Service Details | SparkFuture Technologies",
   };
 }
 

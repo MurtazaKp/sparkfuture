@@ -158,7 +158,7 @@ const Service = () => {
               style={{ maxWidth: "600px" }}
               data-wow-delay="300ms"
             >
-              At <strong>Sparkfuture Technologies LLP</strong>, we deliver
+              At <strong>SparkFuture Technologies LLP</strong>, we deliver
               end-to-end IT software services...
             </p>
           </div>

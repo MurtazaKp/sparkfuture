@@ -31,7 +31,7 @@ const CaseArea = () => {
                   <span className="case-card__subtitle">{item.sub_title}</span>
 
                   <h3 className="case-card__title">
-                    <Link href="/case-details">{item.title}</Link>
+                    <Link href={item.slug}>{item.title}</Link>
                   </h3>
 
                   <p className="case-card__summary">{item.summary}</p>

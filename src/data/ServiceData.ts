@@ -78,7 +78,7 @@ export const service_details_data: Record<string, ServiceDetailType> = {
     title: "Website Development Services",
     subtitle: "Build a Website That Works for Your Business",
     thumb: service_thumb1, // Added thumbnail
-    mainDesc: "Your website should do more than look good — it should load fast, rank well, and convert visitors into customers. At Sparkfuture Technologies LLP, we build modern, secure, and performance-driven websites tailored to your business goals.",
+    mainDesc: "Your website should do more than look good — it should load fast, rank well, and convert visitors into customers. At SparkFuture Technologies LLP, we build modern, secure, and performance-driven websites tailored to your business goals.",
     whatWeDo: [
       "Business & corporate websites",
       "E-commerce & CMS-based platforms",

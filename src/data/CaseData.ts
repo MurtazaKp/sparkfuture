@@ -71,7 +71,7 @@ const Case_data: PortfolioDataType[] = [
       slug: "arbitrium",
       thumb: arbitrium,
       sub_title: "Online Dispute Resolution (ODR)",
-      title: "Arbitrium",
+      title: "Arbitrium ODR Services",
       summary: "Designed and developed Arbitrium’s complete ODR ecosystem — corporate website + custom case management platform.",
       tech_stack: ["HTML", "Bootstrap", "JQuery", "PHP – Laravel", "MySQL"],
       overview: "Built a fully customized ODR platform enabling digital negotiation, mediation, and arbitration workflows with secure dashboards.",

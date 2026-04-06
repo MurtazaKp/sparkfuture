@@ -39,9 +39,16 @@ const ContactArea = () => {
                   </i>
                   <div>
                     <span className="text-white">Call Us</span>
-                    <h3 className="mt-1">
-                      <Link className="text-white" href="tel:+917021216852">
-                        +91 7021216852
+                    <h3 className="mt-1 d-flex flex-column flex-sm-row">
+                      <Link className="text-white" href="tel:+918655217803">
+                        +91 8655217803
+                      </Link>
+
+                      <Link
+                        className="text-white ps-sm-3"
+                        href="tel:+918655217831"
+                      >
+                        +91 86552 17831
                       </Link>
                     </h3>
                   </div>
@@ -108,7 +115,7 @@ const ContactArea = () => {
                     <span className="text-white">Location</span>
                     <h3 className="mt-1">
                       <Link className="text-white" href="#">
-                        Mumbai, Maharashtra, India.
+                        Pune, Maharashtra, India.
                       </Link>
                     </h3>
                   </div>
