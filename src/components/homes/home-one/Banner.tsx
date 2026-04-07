@@ -27,7 +27,7 @@ const banner_data: DataType[] = [
   {
     id: 1,
     bg_img: "/assets/images/banner/banner-image.jpg",
-    sub_title: "Best it SOULTION Provider",
+    sub_title: "Best it SOLUTION Provider",
     title: "Powerful Digital Solutions With SparkFuture",
     desc: (
       <>
@@ -39,7 +39,7 @@ const banner_data: DataType[] = [
   {
     id: 2,
     bg_img: "/assets/images/banner/banner-image2.jpg",
-    sub_title: "Best it SOULTION Provider",
+    sub_title: "Best it SOLUTION Provider",
     title: "Powerful Digital Solutions With SparkFuture",
     desc: (
       <>
@@ -51,7 +51,7 @@ const banner_data: DataType[] = [
   {
     id: 3,
     bg_img: "/assets/images/banner/banner-image3.jpg",
-    sub_title: "Best it SOULTION Provider",
+    sub_title: "Best it SOLUTION Provider",
     title: "Powerful Digital Solutions With SparkFuture",
     desc: (
       <>
