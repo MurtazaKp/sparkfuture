@@ -18,7 +18,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
           className="sidebar__overlay"
         ></div>
         <Link href="/" className="logo mb-40">
-          SparkFuture
+          <img src="/assets/images/logo/logo.png" alt="" />
         </Link>
 
         <div className="mobile-menu overflow-hidden mean-container">
@@ -32,17 +32,20 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
           <li>
             <i className="fa-solid primary-color fa-location-dot"></i>{" "}
             <Link href="mailto:info@assureditservices.com">
-              Mumbai, Maharashtra, India.
+              Pune, Maharashtra, India.
             </Link>
           </li>
           <li className="py-2">
             <i className="fa-solid primary-color fa-phone-volume"></i>{" "}
-            <Link href="tel:+917021216852">+917021216852</Link>
+            <Link href="tel:+918655217803">+91 8655217803</Link>
+            <Link className="ps-2" href="tel:+918655217831">
+              +91 86552 17831
+            </Link>
           </li>
           <li>
             <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-            <Link href="mailto:info@assureditservices.com">
-              info@assureditservices.com
+            <Link href="mailto:sparkfuturetechnologies@gmail.com">
+              sparkfuturetechnologies@gmail.com
             </Link>
           </li>
         </ul>
