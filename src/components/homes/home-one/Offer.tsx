@@ -203,14 +203,6 @@ const Offer = () => {
               Mastering Modern <br /> Technology Stacks
             </h2>
           </div>
-          <Link
-            href="/services"
-            className="btn-one wow fadeInUp"
-            data-wow-delay="200ms"
-            data-wow-duration="1500ms"
-          >
-            Explore Our Stack <i className="fa-regular fa-arrow-right-long"></i>
-          </Link>
         </div>
 
         <div className="row g-4 justify-content-center">
