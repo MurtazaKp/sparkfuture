@@ -1900,7 +1900,7 @@
           h3,
           a {
             @include breakpoint(max-sm) {
-              font-size: 15px !important; // Fits long emails in one line
+              font-size: 14.5px !important; // Fits long emails in one line
               line-height: normal;
               word-break: break-all;
             }

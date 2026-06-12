@@ -44,8 +44,8 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
           </li>
           <li>
             <i className="fa-solid primary-color fa-paper-plane"></i>{" "}
-            <Link href="mailto:sparkfuturetechnologies@gmail.com">
-              sparkfuturetechnologies@gmail.com
+            <Link href="mailto:contact@sparkfuturetechnologies.com">
+              contact@sparkfuturetechnologies.com
             </Link>
           </li>
         </ul>

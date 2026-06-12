@@ -81,9 +81,9 @@ const ContactArea = () => {
                     <h3 className="mt-1">
                       <Link
                         className="text-white"
-                        href="mailto:sparkfuturetechnologies@gmail.com"
+                        href="mailto:contact@sparkfuturetechnologies.com"
                       >
-                        sparkfuturetechnologies@gmail.com
+                        contact@sparkfuturetechnologies.com
                       </Link>
                     </h3>
                   </div>

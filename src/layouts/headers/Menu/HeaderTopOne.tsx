@@ -24,7 +24,7 @@ const HeaderTopOne = () => {
               </svg>
 
               <Link href="#0" className="ms-1">
-                sparkfuturetechnologies@gmail.com
+                contact@sparkfuturetechnologies.com
               </Link>
             </li>
             <li className="ms-4">
