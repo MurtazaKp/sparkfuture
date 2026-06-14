@@ -76,7 +76,7 @@ const FooterOne = () => {
             data-wow-delay="200ms"
             data-wow-duration="1500ms"
           >
-            <h3 className="footer-title">IT Solution</h3>
+            <h3 className="footer-title">Our Services</h3>
             <ul>
               <li>
                 <Link href="/service-details/website-development">
@@ -115,7 +115,7 @@ const FooterOne = () => {
             data-wow-delay="400ms"
             data-wow-duration="1500ms"
           >
-            <h3 className="footer-title">Quick Link</h3>
+            <h3 className="footer-title">Quick Links</h3>
             <ul>
               <li>
                 <Link href="/about">
@@ -147,7 +147,7 @@ const FooterOne = () => {
               <li>
                 <i className="fa-regular fa-clock"></i>
                 <div className="info">
-                  <h5>Opening Hours:</h5>
+                  <h5>Business Hours:</h5>
                   <p>Mon - Sat: 10.00 AM - 7.00 PM</p>
                 </div>
               </li>
@@ -173,9 +173,9 @@ const FooterOne = () => {
               data-wow-delay="00ms"
               data-wow-duration="1500ms"
             >
-              &copy; All Copyright 2026 by <Link href="#">SparkFuture</Link>
+              &copy; All Rights Reserved by SparkFuture Technologies LLP
             </p>
-            <ul
+            {/* <ul
               className="d-flex align-items-center gap-4 wow fadeInDown"
               data-wow-delay="200ms"
               data-wow-duration="1500ms"
@@ -186,7 +186,7 @@ const FooterOne = () => {
               <li>
                 <Link href="#">Privacy Policy</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

@@ -23,7 +23,10 @@ const HeaderTopOne = () => {
                 />
               </svg>
 
-              <Link href="#0" className="ms-1">
+              <Link
+                href="mailto:contact@sparkfuturetechnologies.com"
+                className="ms-1"
+              >
                 contact@sparkfuturetechnologies.com
               </Link>
             </li>
