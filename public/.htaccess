@@ -2,8 +2,12 @@
   RewriteEngine On
   RewriteBase /
 
-  # Serve index.html as the default file for directories
+  # Serve index.html as default
   DirectoryIndex index.html
+
+  # Direct access for _next static assets - DO NOT REWRITE
+  RewriteCond %{REQUEST_URI} ^/_next/ [NC]
+  RewriteRule ^ - [L]
 
   # Redirect folder requests without trailing slash to trailing slash (prevent 403)
   RewriteCond %{REQUEST_FILENAME} -d
